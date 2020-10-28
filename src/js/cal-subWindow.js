@@ -40,14 +40,13 @@ function handlerSubmit(event){
         console.log("err");
     }
     
-    setClipboard(newME);
-    
     //출력
     me.value="";
     oldME.innerText = currentValue;
     newME.innerText = `=${newMathExp}`;
     result.innerText = resultME;
     
+    setClipboard(newME.innerText);
 }   
 
 function init(){
