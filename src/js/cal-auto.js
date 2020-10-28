@@ -38,7 +38,7 @@ function handlerSubmit2(event){
     newME2.innerText = `=${newMathExp}`;
     result2.innerText = resultME;
     
-    setClipboard(newME2.innerText);
+    setClipboard(`=${newMathExp}`);
 }
 
 function init2(){
