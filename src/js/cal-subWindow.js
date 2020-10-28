@@ -25,7 +25,6 @@ function makeMathExp(oldMathExp){
         if(isValidRange && isValid(oldMathExp[i]))newMathExp+=oldMathExp[i];
         if(oldMathExp[i]=="=")isValidRange=true;
     }
-    console.log(newMathExp);
     return newMathExp;
 }
 
